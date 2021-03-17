@@ -9,29 +9,38 @@ alert('we will play the giessing game');
 
 
 let myName = prompt('what is my name ?').toUpperCase();
-
+// function 1
 if (myName === 'MURAD') {
   alert('your answer is correct');
   score++;
 }
 else { alert('your answer is wrong'); }
+// end function 1
 
+
+//function 2
 let myAge = prompt('what is my age ?');
 
 // eslint-disable-next-line eqeqeq
+
 if (myAge === 32) {
   alert('your answer is correct');
   score++;
 }
 else { alert('your answer is wrong'); }
+//end function 2
 
+
+// function 3
 let myJob = prompt('what is my job ?').toLowerCase();
 if (myJob === 'web devloper') {
   alert('your answer is correct');
   score++;
 }
 else { alert('your answer is wrong'); }
+//end function 3
 
+//function 4
 let myEdu = prompt('what is my education ?').toLowerCase();
 
 if (myEdu === 'engineer') {
@@ -42,7 +51,9 @@ else {
   alert('your answer is wrong');
 }
 
+ //end function 4
 
+ //function 5
 let myTall = prompt('what is my tall ?');
 
 if (myTall === 165) {
@@ -52,9 +63,10 @@ if (myTall === 165) {
 else {
   alert('your answer is wrong');
 }
-
+// end function 5
 let usernumber;
 
+////function 6
 for (let j = 6; j > 0; j--) {
   let i = j;
   usernumber = prompt('please guess the number between 0 to 100');
@@ -71,7 +83,9 @@ for (let j = 6; j > 0; j--) {
     score++;
   }
 }
+//end function 6
 
+//function 7
 if (usernumber !== 22) {
   alert('the correct answer is 22');
 }
@@ -98,6 +112,7 @@ for (let x = 6; x > 0; x--) {
   }
 
 }
+// end function 7
 // eslint-disable-next-line no-unused-vars
 let r =places.toString;
 
